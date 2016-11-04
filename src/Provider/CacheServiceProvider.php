@@ -14,11 +14,11 @@ use Symfony\Component\Cache\Adapter\ProxyAdapter;
 use Symfony\Component\Cache\Adapter\RedisAdapter;
 
 /**
- * Class ConfigServiceProvider
+ * Class CacheServiceProvider
  *
  * @package NunoPress\Silex\Cache\Provider
  */
-class ConfigServiceProvider implements ServiceProviderInterface
+class CacheServiceProvider implements ServiceProviderInterface
 {
     /**
      * @param Container $app
